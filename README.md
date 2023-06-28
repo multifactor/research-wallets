@@ -17,3 +17,6 @@ Reference implementations for custodial, self-custody, and MFKDF-based Ethereum 
 The three wallets are implemented with a [Cloudflare Workers](https://workers.cloudflare.com/) backend with [Workers KV](https://www.cloudflare.com/en-gb/products/workers-kv/), and a [React](https://react.dev/) frontend using [create-react-app](https://create-react-app.dev/).
 
 Use Node.js v16 or later and NPM v8 or later. To build and test locally, install required dependencies using `npm install`, then build using `npm build`. To deploy for free, we suggest using [Cloudflare Pages](https://pages.cloudflare.com/) with the React template. Cloudflare Pages will automatically build and deploy the backend workers and the React frontend. Make sure to attach a KV namespace to the `DB` environment variable.
+
+## Research Instructions
+These wallets were originally developed to be used in user studies of cryptocurrency wallets and their key management mechanisms. For reference, the protocol used in our original study is provided in [Study_Protocol.pdf](Study_Protocol.pdf).
